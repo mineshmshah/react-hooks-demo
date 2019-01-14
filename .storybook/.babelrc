@@ -1,0 +1,24 @@
+{
+  "presets": [
+    ["@babel/preset-react"],
+    ["@babel/preset-env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
+      }
+    }]
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "babel-plugin-styled-components",
+    "transform-object-rest-spread",
+    ["transform-class-properties", { "spec": true }],
+    ["react-css-modules", {
+      "filetypes": {
+        ".scss": {
+          "syntax": "postcss-scss"
+        }
+      },
+      "generateScopedName": "app-entry___[name]__[local]___[hash:base64:5]"
+    }]
+  ]
+}
