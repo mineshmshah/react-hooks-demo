@@ -38,7 +38,16 @@ const Recipes = ({ basename }: propTypes) => (
         />
         <Route
           path='/ex2'
-          component={ () => <Ex2 />}
+          exact
+          component={ () => <Ex2.main />}
+        />
+        <Route
+          path='/ex2/start'
+          component={ () => <Ex2.start />}
+        />
+        <Route
+          path='/ex2/final'
+          component={ () => <Ex2.final />}
         />
         <Route
           path='/ex3'
