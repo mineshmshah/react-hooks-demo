@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../../../logo.svg';
-import { App, Header, Image, Link} from './styles';
+import {App, Image, Header, Link} from './styles'
 
-class Ex2 extends Component {
+class Ex3 extends Component {
 
   constructor(){
     super();
@@ -24,9 +24,8 @@ class Ex2 extends Component {
   render() {
     return (
       <App>
-        <Header >
-          Ex 2 - Multiple useState Hooks
-
+        <Header>
+          Ex3 useReducer hook
           <Image src={logo} alt="logo" />
           <Link>
             Current Counter: {this.state.count}
@@ -39,8 +38,9 @@ class Ex2 extends Component {
           </button>
         </Header>
       </App>
+
     );
   }
 }
 
-export default Ex2;
+export default Ex3;

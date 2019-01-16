@@ -9,6 +9,7 @@ const Ex2 = () => {
   return (
         <App>
           <Header>
+            Ex 2 - Multiple useState Hooks (Final - Hooks version)
             <Image src={logo} alt="logo" />
             <Link>
               (Hooks) Current Counter: {count}

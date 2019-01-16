@@ -14,7 +14,8 @@ const Header = styled.header`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: 40px;
+    font-weight: bold;
     color: white;
 `;
 
@@ -34,6 +35,8 @@ const Image = styled.img`
 
 const Link = styled.h2`
    color: #61dafb;
+   font-size: 20px;
+
 `;
 
 export {

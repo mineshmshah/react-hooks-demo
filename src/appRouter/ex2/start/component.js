@@ -25,6 +25,7 @@ class Ex2 extends Component {
     return (
       <App>
         <Header >
+          Ex 2 - Multiple useState Hooks (Start -Class version)
           <Image src={logo} alt="logo" />
           <Link>
             (Class) Current Counter: {this.state.count}

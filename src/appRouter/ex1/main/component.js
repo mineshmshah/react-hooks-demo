@@ -20,6 +20,7 @@ class Ex1 extends Component {
     return (
       <App>
         <Header>
+          Ex 1 - useState Hook
           <Image src={logo}  alt="logo" />
           <Link>
             Current Counter: {this.state.count}
