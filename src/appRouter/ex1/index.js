@@ -1,3 +1,9 @@
-import Ex1 from './component';
+import start from './start';
+import final from './final'
+import main from './main'
 
-export default Ex1;
+export default {
+  start,
+  final,
+  main
+};
