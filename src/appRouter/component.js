@@ -7,6 +7,7 @@ import Ex3 from './ex3/index';
 import Ex4 from './ex4/index';
 import Ex5 from './ex5/index';
 import Ex6 from './ex6/index';
+import Ex7 from './ex7/index';
 
 import { Component } from './styles';
 
@@ -100,6 +101,19 @@ const Recipes = ({ basename }: propTypes) => (
         <Route
           path='/ex6/final'
           component={ () => <Ex6.final />}
+        />
+        <Route
+          path='/ex7'
+          exact
+          component={ () => <Ex7.final />}
+        />
+        <Route
+          path='/ex7/start'
+          component={ () => <Ex7.start />}
+        />
+        <Route
+          path='/ex7/final'
+          component={ () => <Ex7.final />}
         />
       </Switch>
     </HashRouter>
