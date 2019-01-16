@@ -24,7 +24,7 @@
     "lint": "yarn lint-scss && yarn lint-scripts",
     "lint-scripts": "eslint './src/**/*.[j|t]s?(x)'",
     "lint-scss": "stylelint './src/**/*.?(s)css'",
-    "test": "react-scripts test",
+    "test": "CI=true react-scripts test --env=jsdom",
     "test-coverage": "yarn test --coverage"
   },
   "eslintConfig": {

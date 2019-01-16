@@ -6,7 +6,7 @@ const InputClass = ({value, onUpdate}) => {
   const [currentValue, setCurrentValue] = useState ('')
 
   useEffect(() =>{
-      initialValue ? '' :setInitialValue(value)
+      if(initialValue) setInitialValue(value);
       setCurrentValue(value)
     }
   ,[value])
