@@ -8,7 +8,14 @@ const InnerDiv = styled.div`
   background: ${({colour}) => colour ? colour : "green"};
 `;
 
+const Header = styled.h2`
+   color: #61dafb;
+   font-size: 40px;
+   font-weight: bold;
+`
+
 
 export {
-  InnerDiv
+  InnerDiv,
+  Header
 };

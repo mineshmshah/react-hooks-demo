@@ -90,7 +90,16 @@ const Recipes = ({ basename }: propTypes) => (
         />
         <Route
           path='/ex6'
-          component={ () => <Ex6 />}
+          exact
+          component={ () => <Ex6.main />}
+        />
+        <Route
+          path='/ex6/start'
+          component={ () => <Ex6.start />}
+        />
+        <Route
+          path='/ex6/final'
+          component={ () => <Ex6.final />}
         />
       </Switch>
     </HashRouter>

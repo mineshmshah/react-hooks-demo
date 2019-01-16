@@ -1,9 +1,9 @@
 import React , { useState, useContext } from 'react';
-import { InnerDiv } from './styles';
+import { InnerDiv, Header } from './styles';
 
-// Adding Context to pass data all the way down
+
+// Adding Context to specific areas
 const MyContext = React.createContext();
-
 
 const Inner = (props) => (
   <InnerDiv colour={props.colour}>
@@ -17,83 +17,38 @@ const Inner = (props) => (
   </InnerDiv>
 );
 
-const App = () => {
-  const MyContextHook = useContext(MyContext);
-  return (
-    <Inner
-      colour='purple'>
-      <Inner
-        edit={MyContextHook.edit}
-        colour='red'>
-        <Inner
-          edit={MyContextHook.edit}
-          colour='blue'>
-        </Inner>
-      </Inner>
-    </Inner>
-  );
+class Ex6 extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      edit: true
+    }
+  }
+  render() {
+    return (
+      <MyContext.Provider value={this.state}>
+        <Header>Ex6 Passing down mulitple Props</Header>
+        <MyContext.Consumer>
+          {(value) => (
+            <Inner
+              colour='purple'>
+              <Inner
+                edit={value.edit}
+                colour='red'>
+                <Inner
+                  edit={value.edit}
+                  colour='blue'>
+                </Inner>
+              </Inner>
+            </Inner>
+          )}
+        </MyContext.Consumer>
+      </MyContext.Provider>
+    )
+  }
 }
 
-const Ex6 = () => {
-  let [editState, setEditState] = useState({
-    edit: true
-  });
-  return (
-    <MyContext.Provider value={editState}>
-      <App />
-    </MyContext.Provider>
-  )
-};
-
-
 export default Ex6
-
-// // Adding Context to specific areas
-// const MyContext = React.createContext();
-//
-// const Inner = (props) => (
-//   <InnerDiv colour={props.colour}>
-//     <h2>
-//       {props.edit ? 'Edit' : 'Create'}
-//     </h2>
-//     <div>
-//       {props.children ? '': <h1>Endgame</h1>}
-//     </div>
-//     {props.children}
-//   </InnerDiv>
-// );
-//
-// class Ex6 extends React.Component {
-//   constructor(props){
-//     super(props);
-//     this.state = {
-//       edit: true
-//     }
-//   }
-//   render() {
-//     return (
-//       <MyContext.Provider value={this.state}>
-//         <MyContext.Consumer>
-//           {(value) => (
-//             <Inner
-//               colour='purple'>
-//               <Inner
-//                 edit={value.edit}
-//                 colour='red'>
-//                 <Inner
-//                   edit={value.edit}
-//                   colour='blue'>
-//                 </Inner>
-//               </Inner>
-//             </Inner>
-//           )}
-//         </MyContext.Consumer>
-//       </MyContext.Provider>
-//     )
-//   }
-// }
-//
-// export default Ex6
 
 // // Adding Context to pass data all the way down
 // const MyContext = React.createContext();
