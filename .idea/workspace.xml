@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15f4dbb8-51e5-4119-9dc9-8e244c531c1a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/final/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/final/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/final/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/main/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/main/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/start/component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/start/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appRouter/ex3/start/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/final/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/final/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/final/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/main/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/main/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/main/styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/start/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/start/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appRouter/ex4/start/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/appRouter/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex1/final/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex1/final/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex1/final/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex1/final/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex1/main/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex1/main/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex1/main/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex1/main/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex1/start/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex1/start/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex2/final/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex2/final/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex2/final/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex2/final/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex2/main/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex2/main/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex2/main/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex2/main/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex2/start/component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex2/start/component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex2/start/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex2/start/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex3/component.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/appRouter/ex3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appRouter/ex4/component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/appRouter/ex4/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/appRouter/ex4/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,10 +29,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="component.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/appRouter/component.js">
+        <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/start/component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+            <state relative-caret-position="274">
+              <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+              <folding>
+                <element signature="e#1077#1103#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/start/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/main/component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1473">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/final/component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-304">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,7 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.storybook/addons.js" />
         <option value="$PROJECT_DIR$/.storybook/config.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/stories/index.js" />
@@ -96,7 +125,6 @@
         <option value="$PROJECT_DIR$/src/appRouter/ex6/index.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex6/styles.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex5/component.js" />
-        <option value="$PROJECT_DIR$/src/appRouter/ex4/component.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex6/component.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex1/styles.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex1/index.js" />
@@ -123,7 +151,12 @@
         <option value="$PROJECT_DIR$/src/appRouter/ex3/start/component.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex3/main/component.js" />
         <option value="$PROJECT_DIR$/src/appRouter/ex3/index.js" />
+        <option value="$PROJECT_DIR$/src/appRouter/ex4/styles.js" />
+        <option value="$PROJECT_DIR$/src/appRouter/ex4/component.js" />
+        <option value="$PROJECT_DIR$/src/appRouter/ex4/main/component.js" />
+        <option value="$PROJECT_DIR$/src/appRouter/ex4/final/component.js" />
         <option value="$PROJECT_DIR$/src/appRouter/component.js" />
+        <option value="$PROJECT_DIR$/src/appRouter/ex4/start/component.js" />
       </list>
     </option>
   </component>
@@ -153,7 +186,9 @@
     <option name="width" value="1297" />
     <option name="height" value="757" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -187,13 +222,6 @@
               <item name="hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="appRouter" type="462c0819:PsiDirectoryNode" />
-              <item name="ex2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="appRouter" type="462c0819:PsiDirectoryNode" />
               <item name="ex3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -201,23 +229,14 @@
               <item name="hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="appRouter" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3" type="462c0819:PsiDirectoryNode" />
-              <item name="final" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hooks-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="hooks-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="appRouter" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hooks-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hooks-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="appRouter" type="462c0819:PsiDirectoryNode" />
-              <item name="ex3" type="462c0819:PsiDirectoryNode" />
+              <item name="ex4" type="462c0819:PsiDirectoryNode" />
               <item name="start" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -243,17 +262,18 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/appRouter/ex4" />
+      <recent name="$PROJECT_DIR$/src/appRouter/ex4/final" />
+      <recent name="$PROJECT_DIR$/src/appRouter/ex4/main" />
+      <recent name="$PROJECT_DIR$/src/appRouter/ex4/start" />
+      <recent name="$PROJECT_DIR$/src/appRouter/ex3/start" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/appRouter/ex4" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/.storybook" />
       <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/appRouter/ex3/start" />
-      <recent name="$PROJECT_DIR$/src/appRouter/ex3/main" />
-      <recent name="$PROJECT_DIR$/src/appRouter/ex3/final" />
-      <recent name="$PROJECT_DIR$/src/appRouter/ex3" />
-      <recent name="$PROJECT_DIR$/src/appRouter/ex2/start" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -291,12 +311,12 @@
       <workItem from="1547136859798" duration="4565000" />
       <workItem from="1547426085835" duration="9085000" />
       <workItem from="1547476652262" duration="1528000" />
-      <workItem from="1547509369819" duration="18353000" />
+      <workItem from="1547509369819" duration="19115000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58562000" />
+    <option name="totallyTimeSpent" value="60021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="126" y="23" width="1297" height="757" extended-state="0" />
@@ -348,36 +368,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.js" />
-    <entry file="file://$PROJECT_DIR$/src/appRouter/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.editorconfig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UI/add_element/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UI/toggle-button-hooks/index.js" />
     <entry file="file://$PROJECT_DIR$/src/UI/toggle-button-hooks/styles.js" />
     <entry file="file://$PROJECT_DIR$/src/UI/toggle-button-hooks/component.js" />
@@ -405,13 +399,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="69" column="26" lean-forward="true" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/appRouter/ex6/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -423,9 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,16 +470,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex1/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex1/component.js" />
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -510,21 +485,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex2/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-785" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex2/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex2/styles.js" />
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex2/component.js" />
     <entry file="file://$PROJECT_DIR$/src/appRouter/ex1/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -631,19 +593,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex3/styles.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/appRouter/ex3/component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex3/styles.js" />
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex3/component.js" />
     <entry file="file://$PROJECT_DIR$/src/appRouter/ex3/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -681,17 +632,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/styles.js" />
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/component.js" />
     <entry file="file://$PROJECT_DIR$/src/appRouter/ex3/start/component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <caret line="1" column="11" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/appRouter/component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/final/component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/main/component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1473">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/start/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/appRouter/ex4/start/component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="52" column="70" selection-start-line="52" selection-start-column="70" selection-end-line="52" selection-end-column="70" />
+          <folding>
+            <element signature="e#1077#1103#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

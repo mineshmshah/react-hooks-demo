@@ -64,7 +64,16 @@ const Recipes = ({ basename }: propTypes) => (
         />
         <Route
           path='/ex4'
-          component={ () => <Ex4 />}
+          exact
+          component={ () => <Ex4.main />}
+        />
+        <Route
+          path='/ex4/start'
+          component={ () => <Ex4.start />}
+        />
+        <Route
+          path='/ex4/final'
+          component={ () => <Ex4.final />}
         />
         <Route
           path='/ex5'
