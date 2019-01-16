@@ -77,7 +77,16 @@ const Recipes = ({ basename }: propTypes) => (
         />
         <Route
           path='/ex5'
-          component={ () => <Ex5 />}
+          exact
+          component={ () => <Ex5.main />}
+        />
+        <Route
+          path='/ex5/start'
+          component={ () => <Ex5.start />}
+        />
+        <Route
+          path='/ex5/final'
+          component={ () => <Ex5.final />}
         />
         <Route
           path='/ex6'

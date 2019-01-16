@@ -2,11 +2,14 @@ import styled from 'styled-components';
 
 const Component = styled.div`
   z-index: 0;
-  display: block;
+  display: flex;
   position: relative;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  padding: 20px;
+  flex-direction: column;
+  
 
   ${({disabled}) => disabled && `
     &:after {
@@ -50,49 +53,22 @@ const filledInput = `
   color: green;
 `;
 
-const InputField = styled.input`
-  outline: none;
-  box-sizing: border-box;
-  height:100%;
-  width: 100%;
-  font-size: 14px;
-  border-radius: 2px;
-  background-color: white;
-  color: black;
-  box-shadow: inset 0 0 0 1px black;
-  border: none;
 
-  &::placeholder {
-    color: black;
-  }
-
-${
-  ({error}) => error && errorInput
-  }
-
-${
-  ({disabled}) => disabled && disableInput
-  }
-
-${
-  ({disabled, error, color}) => !disabled && !error && defaultInput(color)
-  }
-
-${
-  ({ value }) => value && filledInput
-  }
+const Input = styled.input`
+  width: 476px;
+  height: 32px;
+  border-radius: 4px;
+  border-color: #a9b5c7;
 `;
 
-const ErrorMessage = styled.div`
-  display: ${({error}) => !error && 'none'};
-  color: red;
-  font-size: 14px;
-  font-weight: 500;
-  width: 100%;
-`;
+const Header = styled.h2`
+   color: #61dafb;
+   font-size: 40px;
+   font-weight: bold;
+`
 
 export {
   Component,
-  InputField,
-  ErrorMessage
+  Input,
+  Header
 };
