@@ -9,7 +9,6 @@
     "enzyme-to-json": "^3.3.5",
     "react": "^16.8.0-alpha.0",
     "react-dom": "^16.8.0-alpha.0",
-    "runic-components": "git+ssh://git@github.com/SeedJobs/runic-components.git#hotfix/styled-components-update",
     "single-spa-react": "^2.9.0",
     "styled-components": "^4.1.3"
   },
