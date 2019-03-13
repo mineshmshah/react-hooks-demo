@@ -21,7 +21,7 @@ const InputClass = ({value, onUpdate}) => {
     <Component
     >
      <Header>
-     Ex 5 - Input Passing input to state (Clas Version_
+     Ex 5 - Input Passing input to state (Class Version_
      </Header>
       <Input
         onInput={() => null}
